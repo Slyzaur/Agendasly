@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link rel="icon" href="./image/bookmax.jpeg" />
+    <title>BOOKMAX</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='Styles.css'>
+    <script src='Agenda.js' defer></script>
+</head>
+<body>
+    
+    <div class="fondo"></div> 
+   
+    <div class="contenido"> 
+        <div class="formulario">
+        <div class="bookmax">
+        <H1>BookMax</H1>
+        </div>
+            <h1>New post-it</h1>
+            <input class="titulo" type="text" placeholder="Título"/> 
+            <textarea class="description" placeholder="Descripción"></textarea> 
+            <button id="addButton">Add</button> 
+        </div>
+        
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Buscar por título" />
+        </div>
+
+        <h2 class="postitulo">Post-its Saved</h2>
+        <div id="postList" class="post-list"></div> 
+    </div>
+</body>
+</html>
